@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4sj/ZwAzcuhGQ+FQE4m4Dp5DZmictCTvKAOsu3ey1YPj2o6IW9pRQyOX6DmedyYxlwjDpqIYxlR9jr48U1OHqQ==",
+  "dgSpecHash": "CYN71WMTWLUyKUmTYaYwZdWtLAiUtd9AQAVFpJavycQpoSZ7v9WFfTp8s9QChmWTKHWh1DZxFngh2fC+AHTYZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kuba\\Source\\Repos\\IO2\\ClassLibrary\\ClassLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Kuba\\source\\repos\\IO2\\ClassLibrary\\ClassLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
