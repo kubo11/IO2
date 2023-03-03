@@ -17,7 +17,7 @@ namespace ClassLibrary
 
             try
             {
-                var numbers = number.Split(',');
+                var numbers = number.Split(',', '\n');
                 if (numbers.Length == 1)
                 {
                     return Convert.ToInt32(numbers[0]);

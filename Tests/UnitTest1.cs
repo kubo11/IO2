@@ -26,5 +26,14 @@ namespace Tests
         {
             Assert.Equal(output, calc.Add(input));
         }
+        [Theory]
+        [InlineData("2\n2", 4)]
+        [InlineData("-2\n2", 0)]
+        [InlineData("0\n0", 0)]
+        [InlineData("123\n-23", 100)]
+        public void WhenTwoNumbersSeparatedByNewlineProvided_ShouldReturnTheirSum(string input, int output)
+        {
+            Assert.Equal(output, calc.Add(input));
+        }
     }
 }
