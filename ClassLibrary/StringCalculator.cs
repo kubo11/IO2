@@ -18,14 +18,15 @@ namespace ClassLibrary
             try
             {
                 var numbers = number.Split(',', '\n');
-                if (numbers.Length == 1)
+                int sum = 0;
+                for (int i = 0; i < numbers.Length; ++i)
                 {
-                    return Convert.ToInt32(numbers[0]);
+                    int num = Convert.ToInt32(numbers[i]);
+                    if (num < 0) throw new ArgumentOutOfRangeException();
+                    if (num > 1000) continue;
+                    sum += num;
                 }
-                else if (numbers.Length == 2)
-                {
-                    return Convert.ToInt32(numbers[0]) + Convert.ToInt32(numbers[1]);
-                }
+                return sum;
             }
             catch
             {
